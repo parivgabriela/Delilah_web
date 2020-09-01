@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delilah</title>
+    <link id="pagestyle" href="./Front/styles.css" rel="stylesheet" type="text/css" />
+    <style ></style>
 </head>
 <body>
     <nav>
@@ -11,18 +13,29 @@
             <li>Usuarios</li>
             <li>Platos</li>
         </ul>
-        <div class="login">
-            <input type="text">Ingrese usuario o mail
-            <input type="text">Ingrese contraseña
-        </div>
-        <div class="platos">
-            Los platos que hay son
-            <input type="text">Busque por codigo de platos
-            <div class="containerPlatos">
-                Todos los platos
-            </div>
-
-        </div>
     </nav>
+        <div class="containerLogin">
+            <div class="login">
+                Ingrese usuario o mail <input type="text">
+                Ingrese contraseña<input type="text">
+                <button class="botonLogin fuenteBotonLogin"> Ingresar</button>
+            </div>
+        </div>
+        <div class="containerPlatos">
+            <div class="platos">
+                Los platos que hay son
+                <input type="text">Busque por codigo de platos
+                <div class="allPlatos">
+                    Todos los platos
+                    <div class="unPlato">
+                        <img src="" alt="">
+                    </div>
+
+                </div>
+    
+            </div>
+        </div>
+        
+   
 </body>
 </html>

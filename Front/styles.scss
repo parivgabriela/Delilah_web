@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+  }
+  body {
+    font-size: 16px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color: aqua;
+  }
+  button{
+      border: none;
+  }
+  //clases
+  %rowClass{
+    display: flex;
+    flex-direction: row;
+  }
+  %flex-colum {
+    display: flex;
+    flex-direction: column;
+  }
+  %widthBuscador {
+    width: 1200px;
+    height: 99px;
+  }
+
+  .containerLogin{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  .platos{
+    @extend %flex-colum;
+  }
+  .login{
+   
+    @extend %flex-colum;
+    width: 20%;
+  }
+  .botonLogin{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 9px;
+  }
+  .fuenteBotonLogin{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+  }
